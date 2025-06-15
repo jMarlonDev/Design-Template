@@ -1,0 +1,23 @@
+:root {
+  --m3-space-4: 4px;
+  --m3-space-8: 8px;
+  --m3-space-12: 12px;
+  --m3-space-16: 16px; /* 16dp - Estándar móvil */
+  --m3-space-24: 24px; /* 24dp - Estándar tablet/desktop */
+  --m3-space-32: 32px;
+  --m3-space-40: 40px;
+
+  --m3-background: #1d1b20;
+  --m3-text-color: #e8def8;
+}
+body {
+  background: var(--m3-background);
+  color: var(--m3-text-color);
+}
+
+a {
+  color: var(--m3-text-color);
+  text-decoration: none;
+  font-weight:bold;
+  font-size:15px;
+}

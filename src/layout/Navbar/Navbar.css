@@ -1,0 +1,141 @@
+/* Estilos generales para la barra de navegación */
+.logo {
+  display: none;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.navItems {
+  display: flex;
+  align-items: center;
+}
+
+.material-symbols-outlined {
+  font-size: 35px;
+  font-variation-settings: "opsz" 35;
+}
+
+/* Estilos para móvil ( Celular ) */
+.desktop-contact {
+  display: none;
+}
+
+.nav {
+  background: #322f35;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 18px;
+}
+
+.navItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  margin: -8px;
+  gap: 10px;
+}
+
+/* Estilos para el ícono base */
+.material-symbols-outlined {
+  font-size: 35px;
+  font-variation-settings: "opsz" 35;
+  padding: 8px 15px;
+  margin: -8px;
+  border-radius: 20px;
+  transition: all 0.2s ease;
+}
+
+.navIcon:hover .material-symbols-outlined {
+  background: #79747e;
+  font-variation-settings:
+    "FILL" 1,
+    "wght" 600;
+}
+
+.navIcon.active .material-symbols-outlined {
+  background: #79747e;
+  color: var(--m3-text-color);
+  font-variation-settings:
+    "FILL" 1,
+    "wght" 600;
+}
+
+/* Estilos generales de la Navbar para Tablet y Desktop ( 600px ) */
+@media (min-width: 600px) {
+  .nav {
+    display: flex;
+    position: static;
+    justify-content: space-between;
+    background: transparent;
+    margin: 0 6px;
+    padding: 0;
+  }
+
+  .logo {
+    display: block;
+    width: 60px;
+    height: 60px;
+  }
+
+  .navItems {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .navIcon span:hover {
+    border-bottom: 1px solid white;
+    color: white;
+    transition: all 1s ease;
+  }
+
+  .desktop-contact {
+    display: flex;
+    color: var(--m3-text-color);
+    margin-right: 4px;
+  }
+
+  md-filled-button.desktop-contact {
+    --md-filled-button-container-color: var(--m3-tertiary);
+    --md-filled-button-label-text-color: var(--m3-text-color);
+  }
+
+  .material-symbols-outlined {
+    display: none;
+  }
+
+  .borderBottom {
+    border-bottom: 1px solid rgba(232, 222, 248, 0.15);
+  }
+}
+
+/* Estilos para la Navbar para Desktop ( 840px ) */
+@media (min-width: 840px) {
+  .logo {
+    width: 77px;
+    height: 77px;
+  }
+
+  .mobile-contact {
+    display: none;
+  }
+
+  .navIcon {
+    flex-direction: row;
+  }
+}

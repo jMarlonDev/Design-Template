@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --md-sys-typescale-display-font: "Roboto", sans-serif;
+  --m3-space-4: 4px;
+  --m3-space-8: 8px;
+  --m3-space-12: 12px;
+  --m3-space-16: 16px; /* 16dp - Estándar móvil */
+  --m3-space-24: 24px; /* 24dp - Estándar tablet/desktop */
+  --m3-space-32: 32px;
+  --m3-space-40: 40px;
+  --m3-background: #1d1b20;
+  --m3-text-color: #e8def8;
+  --m3-tertiary:#e1591f;
+}
+
+body {
+  font-family: var(--md-sys-typescale-display-font);
+  color: var(--m3-text-color);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Margins espaciado externo a los elementos */
+.m-4 {
+  margin: var(--m3-space-4);
+}
+.m-8 {
+  margin: var(--m3-space-8);
+}
+.m-16 {
+  margin: var(--m3-space-16);
+}
+.m-24 {
+  margin: var(--m3-space-24);
+}
+
+/* Paddings espaciado interno de los elementos */
+.p-4 {
+  padding: var(--m3-space-4);
+}
+.p-8 {
+  padding: var(--m3-space-8);
+}
+.p-16 {
+  padding: var(--m3-space-16);
+}
+.p-24 {
+  padding: var(--m3-space-24);
+}
+
+/* Gaps espaciado entre elementos */
+.gap-8 {
+  gap: var(--m3-space-8);
+}
+.gap-16 {
+  gap: var(--m3-space-16);
+}
+.gap-24 {
+  gap: var(--m3-space-24);
+}
+.gap-32 {
+  gap: var(--m3-space-32);
+}
+
+
