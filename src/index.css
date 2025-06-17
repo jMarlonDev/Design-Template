@@ -63,4 +63,12 @@ body {
   gap: var(--m3-space-32);
 }
 
+md-filled-button{
+--md-filled-button-container-color: var(--m3-tertiary);
+--md-filled-button-label-text-color: var(--m3-text-color);
+}
+
+
+
+
 

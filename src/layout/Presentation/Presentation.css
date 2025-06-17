@@ -1,0 +1,175 @@
+/* Estilos generales para el componente de Presentación */
+.decoration{
+  color: var(--m3-tertiary);
+}
+
+/* Estilos de para móvil */
+.containerPresentation{
+  display: flex;
+  flex-direction: column;
+  margin: 0 22px;
+}
+
+.divTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  text-align: center;
+}
+
+.decoration:first-child{
+  margin-right: 3px;
+}
+.decoration:last-child{
+  margin-left: 8px;
+}
+
+.divInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.divInfo span{
+  font-size: 19px;
+  font-weight: bold;
+}
+
+h1{
+  font-size:40px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.divCards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.divCards span{
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.divCards img{
+  max-width: 100%;
+  max-height: 90vh;
+  background:#79747e;
+  border-radius: 15px;
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+md-filled-button{
+  width: 70%;
+}
+
+/* Estilos generales para Tablet y Desktop */
+@media (min-width:600px){
+  .divTitle h1{
+    font-size: 80px;
+  }
+  .divTitle{
+    margin: 0 10px;
+    height: 87vh;
+  }
+
+  .divInfo{
+    display: flex;
+    flex-direction: row;
+    margin: 0 30px;
+    margin-bottom: 50px;
+  }
+
+  .divInfo span{
+    font-size: 23px;
+  }
+
+  .divInfo md-filled-button{
+    width: 40%;
+    font-size: 23px;
+  }
+
+  .divCards span{
+    font-size: 23px;
+  }
+
+  .divCards img{
+    width: 50%;
+    height:24vh;
+  }
+
+  .cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .divCards .specialCard {
+    height: 28vh;
+  }
+}
+
+/* Estilos para Desktop */
+
+@media (min-width: 840px){
+  .divTitle{
+    height: 90vh;
+  }
+
+  .divInfo span{
+    font-size: 18px;
+  }
+
+  .divInfo md-filled-button{
+    width: 20%;
+    font-size: 18px;
+  }
+  
+  .divInfo{
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 80px;
+    justify-content: space-evenly;
+    gap: 50px;
+  }
+  
+  .divCards span{
+    font-size: 18px;
+  }
+
+  .divCards img{
+    height: 55vh;
+    
+  }
+
+  .cards{
+    gap: 60px;
+  }
+
+  .divCards .specialCard{
+    height: 60vh;
+  }
+
+  /* Estilos para el botón de la barra de navegación */
+  md-filled-button{
+   width: 60%;
+  }
+}
+
+
+
