@@ -1,14 +1,16 @@
-import './App.css'
-import { Navbar } from './layout/Navbar/Navbar'
-import { Presentation } from './layout/Presentation/Presentation'
-function App() {
+import "./App.css";
+import { Navbar } from "./layout/Navbar/Navbar";
+import { Presentation } from "./layout/Presentation/Presentation";
+import { Classes } from "./layout/Classes/Classes";
 
+function App() {
   return (
     <>
       <Navbar />
-      <Presentation/>
+      <Presentation />
+      <Classes />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
