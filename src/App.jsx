@@ -1,14 +1,14 @@
 import "./App.css";
 import { Navbar } from "./layout/Navbar/Navbar";
 import { Presentation } from "./layout/Presentation/Presentation";
-import { Classes } from "./layout/Classes/Classes";
+import { Cards } from "./layout/Cards/Cards";
 
 function App() {
   return (
     <>
       <Navbar />
       <Presentation />
-      <Classes />
+      <Cards />
     </>
   );
 }

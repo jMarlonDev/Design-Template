@@ -1,7 +1,21 @@
+/**
+ * @Componente "Navbar": Barra de navegación principal para mostrar
+ * las secciones de la pagina
+ *
+ * @Description
+ * Este componente renderiza los enlaces y barra de navegación principal
+ *
+ * @requires md-filled-button - Componente de botón de Material Design Web Components
+ * @requires ../Navbar.css - Estilos especifícos del componente
+ * @requires ../../index.css - Estilos css y variables globales
+ * @requires material-symbols-outlined - Iconos de google fonts personalizados
+ *
+ * @returns {JSX.Element} Retorna una sección con la barra de navegación estatica
+ */
+
 import "./Navbar.css";
-import "@material/web/button/filled-button.js";
 import "../../index.css";
-import "./Navbar.css";
+import "@material/web/button/filled-button.js";
 import logo from "../../assets/Logo Oficial.webp";
 
 export const Navbar = () => {

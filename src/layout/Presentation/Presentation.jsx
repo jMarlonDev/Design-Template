@@ -1,3 +1,17 @@
+/**
+ * @Componente "Presentation": Descripción del contenido
+ *
+ * @Description
+ * Este componente renderiza un título con una breve descripción del contenido
+ * que se va a mostrar en la de la pagina
+ *
+ * @requires md-filled-button - Componente de botón de Material Design Web Components
+ * @requires ../../index.css - Estilos y variables globales
+ * @requires  ../../App.css - Estilos para la aplicación React
+ * @requires  ./Presentation.css - Estilos especifícos para el componente
+ *
+ * @returns {JSX.Element} Retorna una sección con el título y la descripción del contenido
+ */
 import "@material/web/button/filled-button.js";
 import "../../index.css";
 import "../../App.css";

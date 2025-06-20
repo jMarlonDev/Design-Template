@@ -1,11 +1,11 @@
 /* Estilos generales para el componente de Clases */
-.spanClasses{
+.title{
   font-size: 19px;
   font-weight: bold;
 }
 
 /* Estilos para móvil */
-.containerClasses{
+.container{
   border: 2px solid var(--m3-text-color);
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@
   border-radius: 15px;
 }
 
-.spanClasses{
+.title{
   margin: 15px 0;
   font-size: 20px;
 }
@@ -43,14 +43,14 @@
   color: var(--m3-background);
 }
 
-.image {
+.divImage {
   width: 100%;
   max-height: 50vh;
   background-color:#79747e;
   border-radius: 12px;
 }
 
-.image img{
+.divImage img{
   width: 100%;
   object-fit: cover;
 }
@@ -81,7 +81,7 @@ width: 90%;
 
 /* Estilos generales para Tablet y Desktop */
 @media (min-width:600px) {
-  .containerClasses{
+  .container{
     margin-top: 40px;
     height: 50vh;
   }
@@ -112,7 +112,7 @@ width: 90%;
 }
 
 @media (min-width: 840px){
-  .containerClasses{
+  .container{
     width: 90%;
     height: 100vh;
     margin: 50px auto;
@@ -128,7 +128,7 @@ width: 90%;
     height: 80vh;
   }
 
-  .image img{
+  .divImage img{
     height: 50vh;
   }
 
