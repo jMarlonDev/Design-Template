@@ -1,10 +1,10 @@
 import "../../index.css";
 import "../../App.css";
 import "./Classes.css";
+import "@material/web/button/filled-button.js";
 import imgCard01 from "../../assets/imgCard01.webp";
 import imgCard02 from "../../assets/imgCard02.webp";
 import imgCard03 from "../../assets/imgCard03.webp";
-import "@material/web/button/filled-button.js";
 
 export const Classes = () => {
   return (
